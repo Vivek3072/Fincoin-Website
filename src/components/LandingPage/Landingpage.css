@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.landingPageNavbar nav{
+    height: 80px;
+    background-color:#010C2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+.landingPageNavbar nav img{
+    width:150px;
+}
+.landingPageNavbar nav ul{
+    display: flex;
+    list-style: none;
+    background: none;
+    margin: 0;
+}
+
+.landingPageNavbar nav ul li {
+    background: none;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.landingPageNavbar nav ul li a:hover{
+    color:white;
+}
+
+
+.landingPageNavbar nav ul li:hover{
+    border-bottom:2px solid #4063FF;
+    color:aliceblue;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.landingPageNavbar nav ul li:hover::after{
+    background-color: none;  
+}
+
+
+.LandingPageBody{
+    height: 80vh;
+}
+.landingPageLeft{
+    color: aliceblue;
+
+}
+.landingPageLeft p{
+    color: rgb(143, 143, 143);
+}
+
+.landingPageLeftBox{
+    padding: 70px 30px;
+}
+.landingPageLeftBox h3{
+    animation-name: moveLeft;
+    animation-duration: 1s;
+}
+@keyframes moveLeft{
+
+    0% {
+      opacity: 0;
+      transform: translateX(-150px);
+    } 
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+}
+.bitcoinHome{
+    padding: 20px 10px 20px 80px ;
+}
+.bitcoinHomeImage{
+    width: 400px;
+}
+
+
+.bitcoinHomeImage{
+    animation-name: upDown ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+  }
+  
+@keyframes upDown{
+
+        0% {
+          opacity: 1;
+          transform: translateY(-20px);
+        } 
+        50% {
+          opacity: 1;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(-20px);
+        } 
+}
+
+.securityPage{
+    background-image: url('../Assets/SecurityImage.png');
+    background-repeat: no-repeat;
+    width: 97vw;
+    color: white;
+    height: 85vh;
+}
+.securitygPageLeftBox{
+    margin: auto;
+    padding: 90px;
+
+}
+.pricingPage{
+    background-color: #0E2B40;
+    color:white;
+    height: 80vh;
+}
+.pricingPageLeftBox{
+    padding: 80px 25px;
+}
+.pricingPageLeftBox p{
+color: rgb(184, 184, 184);
+}
+
+.priceRates{
+    padding: 90px;
+}
+.priceRatesImage{
+    width: 500px;
+}

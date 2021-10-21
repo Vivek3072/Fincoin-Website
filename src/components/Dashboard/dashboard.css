@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideNavBox{
+    background-color: #0F1A37;
+    width: 300px;
+    height: 100vh;
+}
+
+.navLogo img{
+    width: 280px;
+    padding: 15px 30px;
+}
+
+.searchBox{
+padding:0 40px;
+}
+.searchBox input{
+    padding: 10px;
+    height: 40px;
+    background-color: #0F1A37;
+    border-bottom:1.5px solid white;
+    border-radius: 5px;
+}
+.sideNavBox nav ul li{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    list-style: none;
+}
+.sideNavBox nav ul li a{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+.sideNavBox nav ul li a:hover{
+    color:white;
+}
+
+.sideNavBox nav ul li:hover{
+    background-color: #4063FF;  
+    border-top-left-radius: 15px;    
+    border-bottom-left-radius: 15px;    
+    list-style: none;
+    text-decoration: none;
+}
+
+.graphbox{
+    /* width: 52vw; */
+    position: absolute;
+    top: 30px;
+    left: 459px;
+}
