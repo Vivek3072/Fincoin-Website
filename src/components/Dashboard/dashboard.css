@@ -3,6 +3,7 @@
     padding: 0;
 }
 .sideNavBox{
+    position: absolute;
     background-color: #0F1A37;
     width: 300px;
     height: 100vh;
@@ -23,6 +24,10 @@ padding:0 40px;
     border-bottom:1.5px solid white;
     border-radius: 5px;
 }
+.sideNavBox nav ul a{
+    list-style: none;
+    text-decoration: none;
+}
 .sideNavBox nav ul li{
     font-size: 20px;
     color:white;
@@ -34,21 +39,48 @@ padding:0 40px;
     list-style: none;
     text-decoration: none;
 }
-.sideNavBox nav ul li a:hover{
-    color:white;
-}
 
 .sideNavBox nav ul li:hover{
+    cursor: pointer;
     background-color: #4063FF;  
     border-top-left-radius: 15px;    
     border-bottom-left-radius: 15px;    
-    list-style: none;
-    text-decoration: none;
 }
 
 .graphbox{
-    /* width: 52vw; */
     position: absolute;
     top: 30px;
     left: 459px;
+}
+
+.dashboardLeft{
+    width: 30%;
+    height: 100%;
+}
+.dashboardRight{
+    width: 70%;
+    height: 100%;
+}
+
+.logoutButton{
+    background-color: #4063FF;
+    height: 66px;
+    width: 90%;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 16vh;
+}
+
+.logoutButton:hover{
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+     cursor: pointer;
+}
+
+.logoutButton a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 23px;
 }

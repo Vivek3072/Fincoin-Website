@@ -14,7 +14,7 @@ function LandingPageNav() {
                <li>Services</li>
                <li>Reviews</li>
                <li>Pricing</li>
-               <li> <Link to="/dashboard"> <i style={{color:"white" , fontSize:"30px"}} className="fas fa-user-circle"></i> </Link> </li>
+               <li> <Link to="/DashboardItem"> <i style={{color:"white" , fontSize:"30px"}} className="fas fa-user-circle"></i> </Link> </li>
            </ul>
             </nav>
         </div>

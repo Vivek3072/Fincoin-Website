@@ -3,7 +3,7 @@ import LandingPageNav from './LandingPageNav'
 import BitcoinHome from '../Assets/BitcoinHome.png'
 import PricingPage from './PricingPage'
 import Security from './Security'
-import Footer from '../../Footer/Footer'
+import Footer from '../Footer/Footer'
 
 function LandingPage() {
     return (

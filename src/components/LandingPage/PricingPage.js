@@ -5,8 +5,7 @@ import './Landingpage.css'
 function PricingPage() {
     return (
         <>
-        <div className="pricingPage">
-        <div className="container">
+        <div className="container-fluid pricingPage">
                 <div className="row">
                     <div className="col-lg-6 pricingPageLeft">
                         <div className="pricingPageLeftBox mx-4 my-4">
@@ -25,7 +24,6 @@ function PricingPage() {
                     </div>
                 </div>
         </div>     
-        </div>
         </>
     )
 }

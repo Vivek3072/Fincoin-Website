@@ -14,15 +14,22 @@ function DashboardNav() {
                 <hr style={{color:"white"}} />
                    <nav>
                        <ul>
-                           <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-home"></i> <a href="/">   Dashboard </a> </li>
-                           <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-user-alt"></i> <a href="/">   Profile </a> </li>
-                           <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-wallet"></i> <a href="/">   Wallet </a> </li>
-                           <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-exchange-alt"></i> <a href="/">   Exchange </a> </li>
-                           <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-coins"></i> <a href="/">   Coins </a> </li>
-                           <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-cog"></i> <a href="/">   Settings </a> </li>
-                           <li> <Link to="/"> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-sign-out-alt"></i> </Link> <a href="/">   Logout </a> </li>
+                        <Link to="/DashboardItem">    <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-home"></i>             Dashboard   </li>  </Link> 
+                        <Link to="/DashProfile">    <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-user-alt"></i>       Profile   </li>  </Link> 
+                        <Link to="/DashWallet">    <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-wallet"></i>        Wallet   </li>  </Link> 
+                        <Link to="/DashCoins">    <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-exchange-alt"></i> Exchange   </li>  </Link> 
+                        <Link to="/DashCoins">    <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-coins"></i>        Coins   </li>  </Link> 
+                        <Link to="DashboardItem">   <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-cog"></i>             Settings   </li>  </Link> 
+                        <Link to="/DashboardItem">    <li> <i style={{color:"white" , paddingRight:"7px"}} className="fas fa-file-invoice"></i>     Chart   </li>  </Link> 
+
                        </ul>
+
                    </nav>
+
+                   <div className="logoutButton  text-center" >
+                   <Link to="/"> <i style={{color:"white" }} className="fas fa-sign-out-alt"></i>    Logout </Link> 
+
+                   </div>
                 </div>
         </>
     )

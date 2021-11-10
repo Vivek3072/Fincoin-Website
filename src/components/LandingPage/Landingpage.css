@@ -111,18 +111,20 @@
 
 .securityPage{
     background-image: url('../Assets/SecurityImage.png');
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 97vw;
     color: white;
     height: 85vh;
 }
 .securitygPageLeftBox{
-    margin: auto;
     padding: 90px;
 
 }
-.pricingPage{
+
+.container-fluid.pricingPage{
     background-color: #0E2B40;
+    background-size: 100vw 80vh;
     color:white;
     height: 80vh;
 }
@@ -137,5 +139,5 @@ color: rgb(184, 184, 184);
     padding: 90px;
 }
 .priceRatesImage{
-    width: 500px;
+    width: 50vmin;
 }
